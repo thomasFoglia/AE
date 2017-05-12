@@ -603,3 +603,38 @@ Pricing table
 h2, .h2 {
   font-size: 36px;
 }
+
+.ribbon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.ribbon .text {
+  position: relative;
+  left: -25px;
+  top: 32px;
+  width: 210px;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: green;
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+}
+
+.ribbon .text:before {
+    left: 0;
+}
+
+.ribbon .text:after {
+    right: 0;
+}
