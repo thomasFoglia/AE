@@ -13,7 +13,8 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  /*font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
+  font-family: 'Lato', Arial, sans-serif;
 }
 hr {
   border-color: var(--main);
@@ -535,10 +536,11 @@ Pricing table
 
 .pricing-content li {
   color: #888;
-  font-size: 12px;
-  padding: 7px 15px;
+  font-size: 14px;
+  padding: 8px 15px;
   border-bottom: solid 1px #f5f9e7;
   text-align: center;
+  margin: 0 30px;
 }
 
 .pricing-content li .fa-check {
